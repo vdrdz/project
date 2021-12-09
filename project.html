@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lead the circle to the bottom of the screen without touching the square
+        (move the circle using arrow keys...) good luck </h1>
+    <div class= "circle"></div>
+    <style>
+        #yellowsquare{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left:550;
+    top:550;
 
+}
+        </style>
+        <script>
+            var x = 0 ;
+            window.onload =function()
+            {
+                var yellowsquare = document.getElementById("yellowsquare")
+            setInterval(function()
+            {
+                x++;
+                yellowsquare.style.top = y ; } , 5 ) ;
+            }
+            
+            
+        </script>
+    
+    <div id="yellowsquare"></div>
+    
+    <script>
+        src="project.js"
+    </script>
+</body>
+</html>
